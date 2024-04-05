@@ -1,0 +1,267 @@
+
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.hero-image {
+     height: 100%;
+  margin: 0;
+  
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+ 
+}
+.hero-text {
+  padding: 40px 25px;
+  text-align: center;
+  color: white;
+}
+.her{
+  text-align: center;
+}
+
+
+
+   .menu{
+   
+  height: 70px;
+  width: 100%;
+  background-color: darkcyan;
+   }
+ 
+   .menu ul a:hover{
+    background-color: #1913d5;
+    border-radius: 5px;
+  }
+   .menu ul{
+      float: right;
+   }
+   .menu a{
+      text-decoration: none;
+      color: rgb(255, 255, 255);
+      margin: 0 10px;
+      line-height: 70px; 
+     
+   }
+     /* banner section start */
+     .cover-image{
+      width: 100%;
+      height:400px;
+    
+     }
+
+      label{
+          color: white;
+          margin: 0 40px 0 0;
+          font-size: 26px;
+          line-height: 70px;
+          display: none;
+          width: 26px;
+          float: right;
+      }
+      #toggle{
+          display: none;
+      }
+
+      
+.contn{
+  width: 50%;
+  height: 40%;
+}
+  main {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 50px;
+  }
+  .blog-img {
+    width: 30%;
+    height: 30%;
+  }
+  .content {
+    flex: 2;
+  }
+  
+  aside {
+    flex: 1;
+    margin-left: 20px;
+  }
+  
+  .blog-post {
+   
+    margin-bottom: 7px;
+    padding: 3%;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+ 
+  h1, h2 {
+    margin-bottom: 10px;
+  }
+  
+
+  
+  footer {
+    height: 70px;
+  width: 100%;
+  }
+  
+  footer a {
+    text-decoration: none;
+    color: black;
+    padding: 5px;
+  }
+  
+  .social-links a {
+    color: white;
+    list-style: none;
+    padding: 5px;
+   font-size: 15px;
+  
+  }
+  
+  .my{
+    font-size: 15px;
+  }
+  .blog-btn{
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  .blog-btn:hover{
+    background-color: #d2d2de;
+    border-radius: 5px;
+  }
+  .list-name{
+    margin: 25px 0;
+  }
+ /* footer starts here  */
+footer {
+  background-color: black;
+  color: white;
+  padding: 1px;
+  min-height: 5vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+p{
+  font-size: 20px;
+  text-align: justify;
+}
+.gmail-style{
+  font-size: 18px;
+  border: 1px solid #ccc;
+  
+}
+.nm {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+
+}
+
+.n {
+  width: 25%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.n:hover {
+  background-color:#d2d2de;
+}
+
+.mail-list {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+
+      @media only screen and (max-width:500px){
+
+       
+  
+
+        *{
+          box-sizing: border-box;
+          margin: 0;
+          padding: 0;
+          
+        }
+        
+        body {
+          font-family: Arial, Helvetica, sans-serif;
+        }
+        
+        .blog-post {
+          width: 100%;
+          height: 100%;
+        }
+        .contn{
+          width: 400px;
+          height: 600%;
+          display: flex;
+          flex-direction: row-reverse;
+        }
+
+      label{
+          display: block;
+          cursor: pointer;
+      }
+      .menu ul {
+          clear: right;
+          text-align: center;
+ 
+          width: 100%;
+      height: 100vh;
+      background-color: var(--color2);
+          display: none;
+          
+      }
+      .menu a{
+              display: block;
+              background-color: indigo;
+              margin: 10px 0;
+              text-align: center;
+              border-radius: 10px;
+              
+      }
+      
+      .menu a:hover{
+          background-color: gray;
+      }
+      .cover-image{
+        width: 100%;
+        height:50%;
+      }
+      #toggle:checked + .menu ul{
+          display: block;
+      }
+    
+      .mail-list {
+        width: 350px;
+        height: 150px;
+        border: 1px solid #c3c3c3;
+        display: flex;
+        flex-direction: row-reverse;
+      }
+   
+  }
